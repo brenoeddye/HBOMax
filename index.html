@@ -117,11 +117,110 @@
             <small>O período de teste gratuito é apenas para novos assinantes. Restrições se aplicam.</small>
         </div>
     </div>
-    <div class="footer">
-
+    <div class="container infos">
+        <div class="d-flex">
+            <div class="d-flex series">
+                <img src="./assets/img/serie_1.webp">
+                <img src="./assets/img/serie_2.webp">
+                <img src="./assets/img/serie_3.webp">
+                <img src="./assets/img/serie_4.webp">
+                <img src="./assets/img/serie_5.webp">
+                <img src="./assets/img/serie_6.webp">
+            </div>
+            <div class="series_text">
+                <h3>Curta episódios completos gratuitos sem a necessidade de assinatura.</h3>
+                <button class="btn_white">Assista agora</button>
+            </div>
+        </div>
+        <div class="share">
+            <h2>Assista a HBO Max em seus dispositivos preferidos</h2>
+            <small>A compatibilidade varia de acordo com o plano.</small>
+            <div class="d-flex devices">
+                <div class="_device">
+                    <img src="./assets/img/TV.png" alt="">
+                    <h3>Smart TVs</h3>
+                    <hr class="pink">
+                    <p>Samsung</p>
+                    <p>LG</p>
+                    <p>Roku</p>
+                    <p>Android TV</p>
+                    <p>Apple TV</p>
+                    <p>Chromecast</p>
+                </div>
+                <div class="_device">
+                    <img src="./assets/img/PC.png" alt="">
+                    <h3>Computadores</h3>
+                    <hr class="pink">
+                    <p>ChromeOS</p>
+                    <p>MacOS</p>
+                    <p>Windows PC</p>
+                </div>
+                <div class="_device">
+                    <img src="./assets/img/Console.webp" alt="">
+                    <h3>Video-games</h3>
+                    <hr class="pink">
+                    <p>Xbox One</p>
+                    <p>Xbox Series XIS</p>
+                </div>
+                <div class="_device">
+                    <img src="./assets/img/Mobile.png" alt="">
+                    <h3>Smartphone e Tablets</h3>
+                    <hr class="pink">
+                    <p>Android Phone & Tablet</p>
+                    <p>iPhone & iPad</p>
+                </div>
+            </div>
+        </div>
+        <div class="faq">
+            <h2>Ficou com alguma dúvida? A gente tem a resposta.</h2>
+            <div>
+                <section>
+                    <button class="faq_buttons" onclick="openInfo(faq1)">Receberei um período de teste gratuito se comprar desde HBOMAX.COM?</button>
+                    <div id="faq1" class="d-none">
+                        <h3>Começando no 1 de agosto de 2021, todos os nossos novos assinantes através de HBOMAX.COM receberão um período de teste gratuito de 7 dias. Este período de teste e suas condições serão anunciados no momento em que você iniciar o processo de compra. Lembre-se de que o período de teste só será oferecido para novas contas. Se você já tinha uma conta no HBO Max e vai criar uma nova, o período de teste não será oferecido e o sistema passará a cobrar pelo serviço a partir do primeiro dia de assinatura.</h3>
+                    </div>
+                </section>
+                <section>
+                    <button class="faq_buttons" onclick="openInfo(faq2)">Quem é elegível para um período de teste gratuito? </button>
+                    <div id="faq2" class="d-none">
+                        <h3>Se uma assinatura ou oferta promocional inclui um período de teste gratuito, os critérios de qualificação são mencionados no momento em que você inicia o processo de assinatura. Você está qualificado para um período de teste se nunca tiver criado uma assinatura da HBO Max antes. Se, em algum momento no passado, você teve uma assinatura ou iniciou um processo de assinatura na HBO Max, é possível que você não poda se qualificar para um período de teste gratuito. Os critérios de elegibilidade para um período de teste são mencionados no momento em que você cria sua assinatura.</h3>
+                    </div>
+                </section>
+                <section>
+                    <button class="faq_buttons" onclick="openInfo(faq3)">Que conteúdo posso reproduzir? </button>
+                    <div id="faq3" class="d-none">
+                        <h3>Durante o período de teste gratuito, você terá acesso ilimitado a todo o conteúdo da HBO Max</h3>
+                    </div>
+                </section>
+            </div>
+            <small>**Nem todos os títulos estarão disponíveis no momento do lançamento.</small>
+        </div>
     </div>
+    <div class="container footer">
+        <div>
+            <a href="#" class="footer_link">Em breve</a>
+            <a href="#" class="footer_link">Filmes em Destaque</a>
+            <a href="#" class="footer_link">Séries</a>
+            <a href="#" class="footer_link">Ajuda</a>
+        </div>
+        <div>
+            <a href="#" class="small_link">Privacidade</a>
+            <a href="#" class="small_link">Termos de uso</a>
+            <a href="#" class="small_link">Comunidados de impresa</a>
+            <a href="#" class="small_link">Contatos de impresa</a>
+            <a href="#" class="small_link">Gerenciar preferências</a>
+        </div>
+        <copyright>© 2021 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. HBO Max é usado sob licença.</copyright>
+        <div class="social">
+            <a href="#"><img src="./assets/img/fb.png"></a>
+            <a href="#"><img src="./assets/img/tt.png"></a>
+            <a href="#"><img src="./assets/img/inst.png"></a>
+            <a href="#"><img src="./assets/img/yt.png"></a>
+        </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
 
 <script src="./assets/js/jquery.min.js"></script>
-<script src="./assets/js/index.js"></script>
+<script src="./assets/js/slider.js"></script>

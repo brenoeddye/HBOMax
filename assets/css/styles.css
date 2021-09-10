@@ -33,6 +33,10 @@ a:focus {
     display: flex;
 }
 
+.d-none {
+    display: none;
+}
+
 .active {
     font-family: 'Gilroy-light';
     background-color: #b535f6;
@@ -221,6 +225,7 @@ hr.pink {
     background-size: cover;
     background-position: center;
     background-image: url("https://hbomax-images.warnermediacdn.com/2021-07/promo-banner-bg-dsk.png?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=1400");
+    padding-bottom: 3rem;
 }
 
 .f_trial > img {
@@ -250,22 +255,21 @@ button {
     color: #fff;
     border: 0;
     border-radius: 50rem;
+    cursor: pointer;
+    transition: all 0.5s !important;
 }
 
 .btn_purple {
     background: linear-gradient(345deg, rgba(73,12,176,1) 0%, rgba(155,52,239,1) 33%, rgba(255,255,255,0) 66%, rgba(255,255,255,0) 100% );
     background-position: 99% 50%;
     background-size: 400% 400%;
-    font-weight: 800;
-    padding: .8em 1.6em .8em;
     letter-spacing: .2em;
-    border: 2px solid transparent;
+    font-weight: 800;
     text-transform: uppercase;
+    padding: .8em 1.6em .8em;
+    border: 2px solid transparent;
     color: #fff;
     overflow: hidden;
-    -webkit-transition: all 0.5s !important;
-    transition: all 0.5s !important;
-    cursor: pointer;
 }
 
 .btn_purple:hover {
@@ -273,6 +277,137 @@ button {
     transition: all 0.5s !important;
     border: 2px solid #c600ff;
     color: #fff;
+}
+
+.btn_white {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    letter-spacing: .2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: .8em 1.6em .8em;
+    color: #030328;
+    border: 2px solid transparent;
+}
+
+.btn_white:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.infos {
+    margin-top: 5rem;
+}
+
+.series {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    max-width: 45%;
+}
+.series > img {
+    width: 29%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #5b1ce6;
+    border-radius: .3rem;
+    box-shadow: 30px 30px 60px rgb(255 0 100 / 20%), -30px -30px 60px rgb(0 100 255 / 20%);
+    background-image: radial-gradient(rgba(91,28,230,.5),#030328 175%);
+}
+
+.series_text {
+    padding: 5.3rem;
+    text-align: center;
+}
+
+.share {
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.share > h2 {
+    margin: 0;
+}
+
+.devices {
+    margin: 5rem 0;
+    justify-content: space-between;
+}
+
+._device > .pink {
+    margin-bottom: 2rem;
+}
+
+._device > img {
+    height: auto;
+    max-width: 130px;
+}
+
+._device > p {
+    font-weight: lighter;
+    margin: .5rem;
+}
+
+.faq > h2 {
+    text-align: center;
+}
+
+.faq > small {
+    margin-top: 3rem;
+}
+
+.faq_buttons {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: rgb(158, 134, 255);
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    flex-wrap: wrap;
+    hyphens: auto;
+    margin: 0px;
+    padding: 1.25rem 1.5rem 1.25rem 0px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+section {
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.footer {
+    margin-top: 3rem;
+    text-align: center;
+    color: #9e86ff;
+}
+
+.footer_link {
+    color: #9e86ff;
+}
+
+.small_link {
+    color: #9e86ff;
+    font-weight: lighter;
+    font-size: .5rem;
+}
+
+.footer_link:hover, .small_link:hover {
+    color: #fff;
+}
+
+.social {
+    margin: 2rem 0;
+}
+
+copyright {
+    font-size: .6rem;
+    font-weight: lighter;
 }
 
 /* Animation */
