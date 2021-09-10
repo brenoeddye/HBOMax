@@ -29,6 +29,10 @@ a:focus {
     border: 2px solid #5f1981;
 }
 
+.d-flex {
+    display: flex;
+}
+
 .active {
     font-family: 'Gilroy-light';
     background-color: #b535f6;
@@ -44,7 +48,6 @@ a:focus {
     position: fixed;
     top: 0;
     width: 99%;
-    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -62,7 +65,6 @@ a:focus {
 }
 
 .sponsor {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 175px 0 0 20px;
@@ -89,7 +91,6 @@ p {
 }
 
 .frame {
-    display: flex;
     position: relative;
     flex-direction: row;
     text-align: center;
@@ -100,11 +101,11 @@ p {
     content: "";
     background-color: #190752;
     display: block;
-    height: 70%;
+    height: 80%;
     left: -100%;
     position: absolute;
-    top: 16%;
-    width: 300%;
+    top: 10%;
+    width: 200%;
     z-index: -1;
 }
 
@@ -113,7 +114,10 @@ p {
     border: 2px solid rgba(154, 53, 239, 0.5);
 }
 
-._desc {margin-left: 3rem;}
+._desc {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
 
 ._desc > p {
     font-size: 1.25rem;
@@ -128,15 +132,27 @@ p {
     line-height: 1rem;
 }
 
+.slider {
+    margin-top: 5rem;
+}
+
 .slider > h2 {
     text-align: center;
     margin: 2rem 0 0;
 }
 
+.content > h2 {
+    margin: 0;
+}
+
+.content > small {
+    margin-bottom: 1rem;
+}
+
 .block {
     overflow: hidden;
     width: 100%;
-    margin: 50px auto;
+    margin: .6rem auto 5rem auto ;
 }
 
 .animation {
@@ -166,6 +182,67 @@ p {
     margin-top: 10px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.content {
+    text-align: center;
+}
+
+.options {
+    font-weight: 400;
+    margin: 3rem ;
+}
+
+.options > div {
+    max-width: calc(100%/4);
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+hr.pink {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FF00E5;
+    border-width: 2px;
+    width: 45px;
+}
+
+.kids_zone {align-items: center;}
+.kids_zone > img {
+    width: 33%;
+}
+
+.free_trial_landscape {
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://hbomax-images.warnermediacdn.com/2021-07/promo-banner-bg-dsk.png?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=1400");
+}
+
+.f_trial > img {
+    margin-top: 3rem;
+    width: 65%;
+}
+
+.f_trial > button {
+    margin-top: 2rem;
+}
+
+.f_trial > small {
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.f_trial {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 /* Buttons */
