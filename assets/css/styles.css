@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Gilroy-light';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-light'), url('../fonts/Gilroy-Light.woff') format('woff');
+}
+
 body {
     background-color: #030328;
     color: #fff;
