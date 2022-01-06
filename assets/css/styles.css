@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'Gilroy-light';
+    font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
-    src: local('Gilroy-light'), url('../fonts/Gilroy-Light.woff') format('woff');
+    src: local('Gilroy'), url('../font/Gilroy.woff') format('woff');
 }
 
 body {
     background-color: #030328;
     color: #fff;
-    font-family: 'Gilroy-light';
+    font-family: 'Gilroy';
     font-weight: 600;
     font-size: 1.25rem;
     line-height: 1.6;
@@ -17,7 +17,7 @@ body {
 }
 
 a {
-    font-family: 'Gilroy-light';
+    font-family: 'Gilroy';
     text-decoration: none;
     color: #fff;
     font-size: .75rem;
@@ -45,7 +45,7 @@ a:focus {
 }
 
 .active {
-    font-family: 'Gilroy-light';
+    font-family: 'Gilroy';
     background-color: #b535f6;
 }
 
